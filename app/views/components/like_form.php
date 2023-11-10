@@ -1,5 +1,4 @@
 <div class="tweet-nav mb-3">
-    <!-- TODO: usersのIDと tweetsのIDを送信 -->
     <form action="../tweet/like.php" method="post">
         <input type="hidden" name="user_id" value="<?= $user['id'] ?>">
         <input type="hidden" name="tweet_id" value="<?= $tweet['id'] ?>">
